@@ -7,7 +7,7 @@ class Result {
     // The function is expected to return an INTEGER.     
     public static int simpleArraySum(List<Integer> ar) {         
         int result = 0;
-        for(i=0; i<ar.size(); i++){
+        for(int i=0; i<ar.size(); i++){
             result = result + ar.get(i);
         }
         return result;
